@@ -1,0 +1,179 @@
+.navbar {
+  transition: 0.5s;
+  font-weight: 600 !important; }
+
+.navbar-nav > .nav-item {
+  margin: auto; }
+
+.bullet {
+  height: 2rem;
+  width: 2rem; }
+
+.down-icon-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3rem;
+  white-space: nowrap;
+  color: black;
+  font-weight: 500; }
+
+.down-text {
+  transition: opacity 0.5 ease-in-out;
+  opacity: 0; }
+
+.down-icon {
+  height: 3rem;
+  width: 3rem;
+  color: black;
+  fill: currentColor;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.down-icon-container:hover .down-icon {
+  opacity: 0; }
+
+.down-icon-container:hover .down-text {
+  opacity: 1; }
+
+.header-custom {
+  font-size: 60px;
+  color: white; }
+
+.main-content {
+  height: 100vh;
+  width: 100%; }
+
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.sub-main-content {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.main-image {
+  background-image: url("../assets/Holding Medicine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.secondary-content {
+  height: 60vh; }
+
+.operating-image {
+  background-image: url("../assets/Operating Theatre.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+
+.skeleton-image {
+  background-image: url("../assets/Skeleton.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+
+.btn-custom {
+  margin: 5px;
+  min-width: 50%;
+  font-size: 2rem !important; }
+
+.office {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.row-custom {
+  margin: 1.5rem; }
+
+.card-deck-custom {
+  display: flex;
+  flex-direction: column; }
+
+.card-deck-custom .card {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+@media (min-width: 768px) {
+  .card-deck-custom {
+    flex-flow: row wrap; }
+  .card-deck-custom .card {
+    display: flex;
+    flex: 1 0 0%;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px; } }
+
+.card-header-text-custom {
+  font-size: 30px; }
+
+.card-text-custom {
+  font-size: 18px; }
+
+.card .bullet {
+  margin-right: 1.5rem;
+  flex-shrink: 0; }
+
+.card .center-row {
+  justify-content: flex-start; }
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  word-break: break-all;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh; }
+
+button:focus {
+  outline: none !important;
+  box-shadow: none !important; }
+
+@media (max-width: 576px) {
+  .mobile {
+    display: block; }
+  .desktop {
+    display: none; } }
+
+@media (min-width: 576px) {
+  .mobile {
+    display: none; }
+  .desktop {
+    display: block; } }
+
+.colourize {
+  background-color: purple; }
